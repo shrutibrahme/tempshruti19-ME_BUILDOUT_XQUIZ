@@ -35,7 +35,7 @@ public class Question{
                         System.out.println("Answer cannot be null or empty!");
                 }
                 else if(!choices.contains(answer)){
-                        System.out.println("Answer is not presenty among the choices!");
+                        System.out.println("Answer is not present among the choices!");
                 }
                 else{
                         this.questionText = questionText;
